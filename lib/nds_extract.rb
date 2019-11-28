@@ -35,6 +35,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  total_of_total
   return directors_totals(source)
   return gross_for_director(source)
   return list_of_directors(source)
