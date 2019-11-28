@@ -43,6 +43,8 @@ def total_gross(source)
     total_of_total += gross_for_director(director)
     director_index += 1
   end
+
+  return total_of_total
   # Write this implementation
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
