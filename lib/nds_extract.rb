@@ -37,8 +37,7 @@ end
 def total_gross(source)
   total_of_total = 0
   i = 0
-
-  puts list_of_directors(source)
+  return list_of_directors(source)
   # Write this implementation
   #
   # Should use methods:
