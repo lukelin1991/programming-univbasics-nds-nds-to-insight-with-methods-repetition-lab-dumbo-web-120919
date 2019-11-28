@@ -40,7 +40,7 @@ def total_gross(source)
 
   while i < source.size do
     director = source[i]
-    total_of_total = gross_for_director(director)
+    total_of_total = directors_totals(source)
     binding.pry
     i += 1
   end
