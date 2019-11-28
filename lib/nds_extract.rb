@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   names_array = []
-  return source
+  i = 0
   # Write this implementation
 end
 
