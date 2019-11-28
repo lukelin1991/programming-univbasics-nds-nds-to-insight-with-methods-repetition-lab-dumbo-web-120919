@@ -31,7 +31,6 @@ def list_of_directors(source)
     names_array << source[i][:name]
     i += 1
   end
-  binding.pry
   return names_array
 end
 
