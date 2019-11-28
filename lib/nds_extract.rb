@@ -41,6 +41,7 @@ def total_gross(source)
     total_of_total += directors_totals(list_of_directors(source[i]))
     index += 1
   end
+  return total_of_total
 
   # Write this implementation
   # Should use methods:
