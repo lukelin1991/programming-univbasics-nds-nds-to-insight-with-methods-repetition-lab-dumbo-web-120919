@@ -40,7 +40,7 @@ def total_gross(source)
 
   while i < source.size do
     director = source[i]
-    result[director[:name]] = gross_for_director(director)
+    total_of_total = gross_for_director(director)
     i += 1
   end
   # Write this implementation
