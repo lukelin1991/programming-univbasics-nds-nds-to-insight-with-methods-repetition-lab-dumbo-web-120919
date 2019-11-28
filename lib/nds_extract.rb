@@ -36,6 +36,7 @@ end
 
 def total_gross(source)
   index = 0
+  total_of_total = 0
 
   pp list_of_directors(source)
 
