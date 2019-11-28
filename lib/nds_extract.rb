@@ -43,6 +43,7 @@ def total_gross(source)
     total_of_total = gross_for_director(director)
     i += 1
   end
+  return total_of_total
   # Write this implementation
   #
   # Should use methods:
