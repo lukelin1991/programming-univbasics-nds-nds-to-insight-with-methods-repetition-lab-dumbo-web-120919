@@ -35,7 +35,8 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  pp directors_totals(source)
+  pp list_of_directors(source)
+
   # Write this implementation
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
