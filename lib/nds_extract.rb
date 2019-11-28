@@ -35,13 +35,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total_of_total = 0
-  i = 0
-
-  while i < source.size do
-  
-    i += 1
-  end
+  source[:name]
   return total_of_total
   # Write this implementation
   #
