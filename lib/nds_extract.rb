@@ -35,8 +35,8 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  source[:name]
-  return total_of_total
+  pp directors_totals(source)
+
   # Write this implementation
   #
   # Should use methods:
