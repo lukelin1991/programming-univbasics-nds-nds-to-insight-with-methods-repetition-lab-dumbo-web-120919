@@ -32,7 +32,6 @@ def list_of_directors(source)
     i += 1
   end
   return names_array
-  # Write this implementation
 end
 
 def total_gross(source)
