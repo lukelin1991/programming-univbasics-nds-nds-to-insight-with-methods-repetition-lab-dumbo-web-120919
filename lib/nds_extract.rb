@@ -31,8 +31,8 @@ def list_of_directors(source)
     names_array << source[i][:name]
     i += 1
   end
-  return names_array
   binding.pry
+  return names_array
 end
 
 def total_gross(source)
